@@ -1,0 +1,68 @@
+.main
+{
+    margin-top: 240px;
+    height: 1150px;
+}
+.col-left{
+    position: static;
+    width: 31%;
+    float: right;
+    margin-right: 3%;
+    margin-bottom: 30px;
+    border: 2px solid rgba(0,0,0,.125);
+}
+.col-right{
+    position: static;
+    width: 60%;
+    float: right;
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-bottom: 30px;
+    border: 2px solid rgba(0,0,0,.125);
+}
+.text-center{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.title{
+    border: 2px solid rgba(0,0,0,.3);
+    border-radius: 5px;
+    padding: 5px;
+    font-family: inherit;
+    text-align: center;
+}
+.padding-text{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.formula{
+    font-size: 2vw;
+    font-weight: bold;
+}
+.columns{
+    padding-top: 50px;
+}
+.tema a{
+    color: black;
+}
+.note{
+    border: 2px solid rgba(0,0,0,.3);
+    border-radius: 5px;
+    padding: 5px;
+    font-family: inherit;
+    text-align: center;
+    text-decoration: none;
+    color: #ddd;
+    background-color: #3993a3;
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+body{
+    background-color: #f3f3d8;
+}

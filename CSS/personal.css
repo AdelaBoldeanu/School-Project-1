@@ -1,0 +1,45 @@
+.divSus{
+    margin-top: 250px;
+    padding: 5px 5px 20px 5px;
+    font-size: 20px;
+}
+.column {
+    float: left;
+    padding: 10px;
+   
+}
+
+.left {
+  width: 79%;
+    margin-left: 2%;
+    margin-right: 3%;
+  background-color: #f3f3d8;
+    border: 2px solid rgba(0,0,0,.3);
+    
+}
+
+.right {
+    width: 16%;
+    border: 2px solid rgba(0,0,0,.3);
+    background-color: #f3f3d8;
+    position:  fixed;
+    margin-left: 1100px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+table th{
+    padding-bottom: 20px;
+}
+table td{
+    border-bottom: 1px solid black;
+}
+table{
+    padding: 13px;
+}
+
+body{
+    background-color: #f3f3d8;
+}
